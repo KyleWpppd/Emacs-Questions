@@ -1,0 +1,15 @@
+These are snippets of code that have been useful to me!
+
+Batch rename a bunch of files with SVN MV.
+
+code
+for i in *; do j=`echo $i | cut -d . -f 2,3,4,5,6`; j=$j; svn mv $i $j; done
+/code
+
+for each file
+echo the name to cut
+cut at delimeter '.'
+grab the next 5 (2-6) pieces after the dot
+rename them into j
+svn move original file $i to $j
+finis!
