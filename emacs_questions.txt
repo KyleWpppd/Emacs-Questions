@@ -1,5 +1,16 @@
 ** The following are questions I have about emacs **
 
+Q. How the hell do I exit this crap?
+A. C-x C-c
+
+Q. I started typing a command how do I stop?
+A. C-g as many times as you have to. 
+
+Q. How do I undo? 
+A.  As a n00b, C-x u
+    As a pro C-_   
+
+
 In dired, what's the fastest way to get to a filename?
 
 How can I search (recursive grep) the source of an entire folder for a matching string?
