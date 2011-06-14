@@ -4,12 +4,11 @@ Q. How the hell do I exit this crap?
 A. C-x C-c
 
 Q. I started typing a command how do I stop?
-A. C-g as many times as you have to. 
+A. C-g as many times as you have to.
 
-Q. How do I undo? 
+Q. How do I undo?
 A.  As a n00b, C-x u
-    As a pro C-_   
-
+    As a pro C-_
 
 In dired, what's the fastest way to get to a filename?
 
@@ -79,11 +78,11 @@ A. This is referred to as the 'shell history ring'.
    C-c C-x (Shell mode)
        Fetch the next subsequent command from the history.
 
-Q. How do I split a window into multiple windows? 
+Q. How do I split a window into multiple windows?
 A. Horizontally divided: C-x 2
-      Split the selected window into two windows, one above the other (split-window-vertically). 
+      Split the selected window into two windows, one above the other (split-window-vertically).
    Vertically divided: C-x 3
-      Split the selected window into two windows positioned side by side (split-window-horizontally). 
+      Split the selected window into two windows positioned side by side (split-window-horizontally).
 
 Q. How do I find a file in the other window?
 A. C-x 4 C-f 	 find-file-other-window
@@ -96,3 +95,12 @@ A. C-x 4 C-o BUFFER NAME
 
 Q. How can I write in sensible paragraphs and get line wrapping like in a nice text editor?
 A. M-x longlines-mode. This will soft-wrap the text at 80 chars.
+
+Q. How can I turn on highlighting of the current line?
+A.   (global-hl-line-mode 1)
+     and the color can be customized using:
+      (set-face-background 'hl-line "#330")  ;; Emacs 22+ Only
+
+
+
+
